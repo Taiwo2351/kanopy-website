@@ -1,0 +1,86 @@
+*{
+  box-sizing: border box;
+}
+
+body{
+  font-family: "Glegoo";
+}
+
+.jumbotron-fluid{
+  background-image: url(../images/landing2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100%;
+ min-height: 600px; 
+  position: relative;
+ 
+
+}
+
+.jumbotron-fluid .container-fluid{
+  position: relative;
+  z-index: 999999;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+ .row.box {
+margin-top: 100px !important;
+}
+
+.banner-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+}
+.image{
+  background-image: url(../images/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100%;
+ min-height: 600px; 
+  position: relative;
+ 
+
+}
+
+.accordion {
+  background-color:rgb(24, 23, 23); 
+  color:white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 35px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: black; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: black;
+  overflow: hidden;
+  color: white;
+}
